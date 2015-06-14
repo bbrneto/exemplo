@@ -32,19 +32,20 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/javax/enterprise/cdi-api/1.2/cdi-api-1.2.jar">
-		<attributes>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/javax/inject/javax.inject/1/javax.inject-1-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar" sourcepath="M2_REPO/javax/enterprise/cdi-api/1.1/cdi-api-1.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/javax/enterprise/cdi-api/1.1/cdi-api-1.1-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="var" path="M2_REPO/br/com/caelum/vraptor/4.1.4/vraptor-4.1.4.jar">
+	<classpathentry kind="var" path="M2_REPO/br/com/caelum/vraptor/4.2.0-RC2/vraptor-4.2.0-RC2.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -78,8 +79,9 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar">
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-sources.jar">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
@@ -106,32 +108,43 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/servlet/weld-servlet-core/2.2.12.Final/weld-servlet-core-2.2.12.Final.jar">
+	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/servlet/weld-servlet-core/2.1.2.Final/weld-servlet-core-2.1.2.Final.jar" sourcepath="M2_REPO/org/jboss/weld/servlet/weld-servlet-core/2.1.2.Final/weld-servlet-core-2.1.2.Final-sources.jar">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/weld/servlet/weld-servlet-core/2.1.2.Final/weld-servlet-core-2.1.2.Final-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/environment/weld-environment-common/2.2.12.Final/weld-environment-common-2.2.12.Final.jar">
+	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/weld-spi/2.1.Final/weld-spi-2.1.Final.jar" sourcepath="M2_REPO/org/jboss/weld/weld-spi/2.1.Final/weld-spi-2.1.Final-sources.jar">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/weld/weld-spi/2.1.Final/weld-spi-2.1.Final-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/weld-core-impl/2.2.12.Final/weld-core-impl-2.2.12.Final.jar">
+	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/weld-api/2.1.Final/weld-api-2.1.Final.jar" sourcepath="M2_REPO/org/jboss/weld/weld-api/2.1.Final/weld-api-2.1.Final-sources.jar">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/weld/weld-api/2.1.Final/weld-api-2.1.Final-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/weld-api/2.2.SP4/weld-api-2.2.SP4.jar">
+	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/1.0.0.Alpha1/jboss-el-api_3.0_spec-1.0.0.Alpha1.jar" sourcepath="M2_REPO/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/1.0.0.Alpha1/jboss-el-api_3.0_spec-1.0.0.Alpha1-sources.jar">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/1.0.0.Alpha1/jboss-el-api_3.0_spec-1.0.0.Alpha1-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/weld-spi/2.2.SP4/weld-spi-2.2.SP4.jar">
+	<classpathentry kind="var" path="M2_REPO/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar" sourcepath="M2_REPO/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA-sources.jar">
 		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/classfilewriter/jboss-classfilewriter/1.0.5.Final/jboss-classfilewriter-1.0.5.Final.jar">
+	<classpathentry kind="var" path="M2_REPO/org/jboss/weld/weld-core-impl/2.1.2.Final/weld-core-impl-2.1.2.Final.jar" sourcepath="M2_REPO/org/jboss/weld/weld-core-impl/2.1.2.Final/weld-core-impl-2.1.2.Final-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/weld/weld-core-impl/2.1.2.Final/weld-core-impl-2.1.2.Final-javadoc.jar!/"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/org/jboss/classfilewriter/jboss-classfilewriter/1.0.4.Final/jboss-classfilewriter-1.0.4.Final.jar" sourcepath="M2_REPO/org/jboss/classfilewriter/jboss-classfilewriter/1.0.4.Final/jboss-classfilewriter-1.0.4.Final-sources.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
@@ -142,26 +155,15 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/1.0.0.Alpha1/jboss-el-api_3.0_spec-1.0.0.Alpha1.jar" sourcepath="M2_REPO/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/1.0.0.Alpha1/jboss-el-api_3.0_spec-1.0.0.Alpha1-sources.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/spec/javax/el/jboss-el-api_3.0_spec/1.0.0.Alpha1/jboss-el-api_3.0_spec-1.0.0.Alpha1-javadoc.jar!/"/>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="var" path="M2_REPO/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.2_spec/1.0.0.Alpha3/jboss-interceptors-api_1.2_spec-1.0.0.Alpha3.jar" sourcepath="M2_REPO/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.2_spec/1.0.0.Alpha3/jboss-interceptors-api_1.2_spec-1.0.0.Alpha3-sources.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.2_spec/1.0.0.Alpha3/jboss-interceptors-api_1.2_spec-1.0.0.Alpha3-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar" sourcepath="M2_REPO/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA-sources.jar">
+	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar" sourcepath="M2_REPO/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5-sources.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA-javadoc.jar!/"/>
-			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.7.10/slf4j-log4j12-1.7.10.jar">
-		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/C:/Users/Benedito/.m2/repository/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5-javadoc.jar!/"/>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
@@ -171,12 +173,12 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-validator-cdi/5.1.3.Final/hibernate-validator-cdi-5.1.3.Final.jar">
+	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-validator-cdi/5.1.1.Final/hibernate-validator-cdi-5.1.1.Final.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-validator/5.1.3.Final/hibernate-validator-5.1.3.Final.jar">
+	<classpathentry kind="var" path="M2_REPO/org/hibernate/hibernate-validator/5.1.1.Final/hibernate-validator-5.1.1.Final.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>

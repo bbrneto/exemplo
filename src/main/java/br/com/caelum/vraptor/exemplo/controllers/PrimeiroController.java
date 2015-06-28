@@ -11,6 +11,11 @@ public class PrimeiroController {
 
 	@Inject
 	private Result result;
+	
+	@Get("/")
+	public void index() {
+		System.out.println("Passou aqui!!!");
+	}
 
 	@Get("/home")
 	public void home() {
